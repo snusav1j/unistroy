@@ -82,8 +82,8 @@
     .order-button{
         padding: 10px 15px;
         border-radius: 10px;
-        margin-bottom: 5%;
-        margin-right: 5%;
+        margin-bottom: 6%;
+        margin-right: 6%;
         font-size: calc(1.1vh + 1.2vw);
     }
 }
