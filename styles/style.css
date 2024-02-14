@@ -80,7 +80,7 @@ h1, h2{
 }
 .p-two__text .subtitle{
     margin-top: 5%;
-    color: #CDCDCD;
+    color: #efefef;
     font-size: calc(1vh + 1vw);
     font-family: "Montserrat", sans-serif;
 }
