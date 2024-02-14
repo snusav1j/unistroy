@@ -1,3 +1,15 @@
+
+@media screen and (max-width: 767px){
+    #p-one .logo{
+        max-width: 20%;
+    }
+    .p-one__text .title{
+        font-size: calc(1.8vh + 1.8vw);
+    }
+    .p-one__text .subtitle{
+        font-size: calc(1.8vh + 1.8vw);
+    }
+}
 @media screen and (max-width: 550px){
     .p-one__text .title{
         font-size: calc(1.7vh + 1.7vw);
@@ -9,12 +21,6 @@
     #p-two .img-sun-rev{
         max-width: 40%;
     }
-}
-@media screen and (max-width: 767px){
-    #p-one .logo{
-        max-width: 20%;
-    }
-    
 }
 @media screen and (max-width: 425px){
     #p-one .logo{
@@ -33,5 +39,51 @@
     .p-one__text{
         bottom: 0;
         margin-bottom: 3%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .p-two__text{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 77%;
+        margin-left: 11%;
+    }
+    .p-two__text .title{
+        font-size: calc(1.8vh + 1.8vw);
+    }
+    .p-two__text .subtitle{
+        font-size: calc(1.8vh + 1.8vw);
+    }
+    .gazo-silikatniy-block{
+        max-width: 40%;
+        margin-bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .p-two__text .title{
+        font-size: calc(1.7vh + 1.7vw);
+    }
+    .p-two__text .subtitle{
+        font-size: calc(1.3vh + 1.3vw);
+    }
+}
+
+@media screen and (max-width: 500px){
+    .gazo-silikatniy-block{
+        max-width: 60%;
+        margin-bottom: 25%;
+        margin-left: 11%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .order-button{
+        padding: 10px 15px;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        font-size: calc(1.1vh + 1.2vw);
     }
 }
