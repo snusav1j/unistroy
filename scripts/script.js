@@ -9,10 +9,10 @@ if (animItems.length > 0){
             const animItemOffset = offset(animItem).top;
             const animStart = 4;
 
-            let animItemPoint = window.innerHeight - animItemHeight / animStart - 20;
+            let animItemPoint = window.innerHeight - animItemHeight / animStart + 30;
 
             if(animItemHeight > window.innerHeight){
-                animItemPoint = window.innerHeight - window.innerHeight / animStart - 20;
+                animItemPoint = window.innerHeight - window.innerHeight / animStart + 30;
             }
 
             if((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
