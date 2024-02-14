@@ -62,7 +62,55 @@ h1, h2{
         max-width: 70% !important;
     }
 }
-
 #p-two{
     background: #A6A6A6;
+}
+.p-two__text{
+    position: absolute;
+    width: fit-content;
+    font-weight: 400;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.p-two__text .title{
+    color: #001810;
+    font-weight: 500;
+    font-size: calc(1.5vh + 1.5vw);
+    font-family: "Montserrat", sans-serif;
+}
+.p-two__text .subtitle{
+    margin-top: 5%;
+    color: #CDCDCD;
+    font-size: calc(1vh + 1vw);
+    font-family: "Montserrat", sans-serif;
+}
+.gazo-silikatniy-block{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 30%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.order-button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #001810;
+    background: #268257;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 15px;
+    font-size: calc(.9vh + .9vw);
+
+}
+.order-button:hover{
+    cursor: pointer;
+
+background: #3e956d;
 }
