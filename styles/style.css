@@ -11,13 +11,14 @@ h1, h2{
     margin: 0;
 }
 .p-section{
-    height: 100vh;
+    height: 100lvh !important;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 #p-one{
     background: #2A6C4D;
+    height: 100svh !important;
 }
 #p-one .logo{
     max-width: 12%;
