@@ -44,3 +44,13 @@
     transform: translate(0px, 0px);
     opacity: 1;
 }
+
+#p-two .gazo-silikatniy-block{
+    transform: translate(-140px, 0px);
+    opacity: 0;
+    transition: all .9s ease 0s;
+}
+#p-two .gazo-silikatniy-block.active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
