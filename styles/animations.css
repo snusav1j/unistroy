@@ -6,7 +6,6 @@
 #p-one .title.active{
     transform: translate(0px, 0px);
     opacity: 1;
-    transition: all .9s ease 0s;
 }
 #p-one .subtitle{
     transform: translate(0px, 120px);
@@ -16,5 +15,4 @@
 #p-one .subtitle.active{
     transform: translate(0px, 0px);
     opacity: 1;
-    transition: all .9s ease 0s;
 }
