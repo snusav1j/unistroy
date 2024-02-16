@@ -43,30 +43,26 @@
 }
 
 @media screen and (max-width: 767px){
-    .p-two__text{
-        position: absolute;
-        bottom: 0;
-        margin-bottom: 77%;
-        margin-left: 11%;
-    }
     .p-two__text .title{
-        font-size: calc(1.8vh + 1.8vw);
+        font-size: calc(0.6vh + 0.6vw) !important;
     }
     .p-two__text .subtitle{
-        font-size: calc(1.8vh + 1.8vw);
-    }
-    .gazo-silikatniy-block{
-        max-width: 40%;
-        margin-bottom: 15%;
+        font-size: calc(0.6vh + 0.6vw) !important;
     }
 }
 
 @media screen and (max-width: 550px){
+    .p-two__text{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 30%;
+        margin-left: 10%;
+    }
     .p-two__text .title{
-        font-size: calc(1.7vh + 1.7vw);
+        font-size: calc(1vh + 1vw) !important;
     }
     .p-two__text .subtitle{
-        font-size: calc(1.3vh + 1.3vw);
+        font-size: calc(0.9vh + 0.9vw) !important;
     }
 }
 
@@ -85,5 +81,13 @@
         margin-bottom: 6%;
         margin-right: 6%;
         font-size: calc(1.1vh + 1.2vw);
+    }
+}
+
+@media screen and (max-width: 767px){
+    .slider .buttons button{
+        width: 30px;
+        height: 30px;
+        font-size: calc(1vh + 1vh);
     }
 }
