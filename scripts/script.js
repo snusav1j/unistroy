@@ -59,8 +59,8 @@ function reloadSlider(){
     last_active_dot.classList.remove('active');
     dots[active].classList.add('active');
 
-    clearInterval(refreshInterval);
-    refreshInterval = setInterval(()=> {next.click()}, 3000);
+    // clearInterval(refreshInterval);
+    // refreshInterval = setInterval(()=> {next.click()}, 3000);
 
     
 }
