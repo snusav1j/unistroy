@@ -19,8 +19,7 @@ h1, h2{
     position: relative;
 }
 #p-one{
-    background: #637a2f;
-    /* background: #2A6C4D; */
+    background: #2A6C4D;
     height: 100svh !important;
 }
 #p-one .logo{
@@ -71,7 +70,7 @@ h1, h2{
 }
 
 #p-two{
-    background:#7e813c;
+    background:#0e463a;
 }
 .p-two__text{
     position: absolute;
@@ -123,7 +122,7 @@ h1, h2{
     overflow: hidden;
 }
 .item-1{
-    background: #637a2f;
+    background: #2A6C4D;
     height: 100vh;
     width: 100vw;
 }
@@ -156,10 +155,13 @@ p{
 .item-2{
     height: 100vh;
     width: 100%;
-    background: #637a2f;
+    background: #2A6C4D;
     position: relative;
 }
 
+#p-three{
+    background: #2A6C4D;
+}
 
 .p-three_item1-title{
     width: 50%;
@@ -180,7 +182,7 @@ p{
     margin-left: 6.666%;
     width: 100%;
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 0;
     color: #e6e6e6;
     font-size: calc(.9vh + .9vw);
@@ -201,6 +203,6 @@ a.phone-number{
 .fp-arrow-left{
     width: 32px;
     height: 32px;
-    background: #27581679;
+    background: #073d2447;
     border-radius: 8px;
 }
