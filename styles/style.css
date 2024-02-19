@@ -155,98 +155,16 @@ p{
 
 .item-2{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: #637a2f;
     position: relative;
 }
 
-.item-3{
-    background: #030a06;
-    height: 100vh;
-    width: 100vw;
-}
-.slider .list{
-    position: absolute;
-    min-width: 100vw;
-    width: max-content;
-    height: 100vh;
-    left: 0;
-    top: 0;
-    display: flex;
-    transition: .8s;
-}
-
-.slider .buttons{
-    position: absolute;
-    top: 45%;
-    left: 2.5%;
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.slider .buttons button{
-    width: 30px;
-    height: 30px;
-    border-radius: 10%;
-    background: #cfc29541;
-    border: none;
-    font-family: "Rowdies", sans-serif;
-    font-weight: bold;
-    color: #cfc195;
-    font-size: 20px;
-    -webkit-tap-highlight-color: transparent;
-}
-.buttons img{
-    width: 30px;
-}
-button{
-    padding: 0;
-}
-.slider .buttons{
-    justify-self: center;
-}
-.slider .buttons button:hover{
-    cursor: pointer;
-    background: #aca17741;
-}
-.slider .buttons button:active{
-    background: #63636341;
-}
-.slider .dots{
-    position: absolute;
-    bottom: 5%;
-    left: 0;
-    color: #fff;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    -webkit-tap-highlight-color: transparent;
-}
-.slider .dots:hover{
-    cursor: pointer;
-}
-.slider .dots li{
-    list-style: none;
-    width: 10px;
-    height: 10px;
-    background-color: #001810;
-    margin: 5px;
-    border-radius: 20px;
-    transition: .5s;
-}
-.slider .dots li.active{
-    width: 15px;
-    background-color: #cfc195;
-}
 
 .p-three_item1-title{
     width: 50%;
     position: absolute;
-    top: 3.5% !important;
+    top: 5%;
     left: 0;
     color: #e6e6e6;
     font-size: calc(.9vh + .9vw);
@@ -262,7 +180,7 @@ button{
     margin-left: 6.666%;
     width: 100%;
     position: absolute;
-    top: 7% !important;
+    top: 5%;
     left: 0;
     color: #e6e6e6;
     font-size: calc(.9vh + .9vw);
@@ -273,4 +191,16 @@ button{
 a.phone-number{
     /* text-decoration: none; */
     color: #FFF;
+}
+
+.fp-arrow-right img,
+.fp-arrow-left img{
+    width: 32px;
+}
+.fp-arrow-right,
+.fp-arrow-left{
+    width: 32px;
+    height: 32px;
+    background: #27581679;
+    border-radius: 8px;
 }
