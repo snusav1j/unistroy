@@ -1,0 +1,37 @@
+.p-one__text .title{
+    transform: translate(0px, -100px);
+    opacity: 0;
+    transition: all .8s ease-out;
+}
+.fp-viewing-0 .p-one__text .title{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.p-one__text .subtitle{
+    transform: translate(-100px, 0px);
+    opacity: 0;
+    transition: all .8s ease-out;
+}
+.fp-viewing-0 .p-one__text .subtitle{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.p-two__text .title{
+    transform: translate(0px, 210px);
+    opacity: 0;
+    transition: all .8s ease-out;
+}
+.fp-viewing-1 .p-two__text .title{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.p-two__text .subtitle{
+    transform: translate(0px, 170px);
+    opacity: 0;
+    transition: all .8s ease-out;
+}
+.fp-viewing-1 .p-two__text .subtitle{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
