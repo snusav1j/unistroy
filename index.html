@@ -18,19 +18,23 @@
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/adaptive.css">
   <link rel="stylesheet" href="styles/animations.css">
+  <link rel="stylesheet" href="styles/scrollbar.css">
+  <link rel="stylesheet" href="styles/fullpage.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <meta name="description" content="UNISTROY | Прямые поставки газосиликатных блоков">
   <title>UNISTROY</title>
 </head>
 <body>
     
-    <div class="wrapper">
-      <section id="p-one" class="p-section">
+  <div class="wrapper">
+    <div id="fullpage">
+      <section id="p-one" class="section p-section">
           <img src="icons/logo-unistroy-3.png" alt="logo" class="img-fluid logo">
         <div class="p-one__text">
-          <div class="title anim-items">
+          <div class="title">
             <h1>UNISTROY</h1>
           </div>
-          <div class="subtitle anim-items">
+          <div class="subtitle">
             <h2>Прямые поставки<br> 
               Газосиликатных<br>
               блоков</h2>
@@ -38,12 +42,12 @@
         </div>
         <img src="images/u-sun-green-2.png" alt="u-sun" class="img-fluid img-sun">
       </section>
-      <section id="p-two" class="p-section">
+      <section id="p-two" class="section p-section">
         <div class="p-two__text">
-          <div class="title anim-items">
+          <div class="title">
             <h1>КОНТРОЛЬ КАЧЕСТВА</h1>
           </div>
-          <div class="subtitle anim-items">
+          <div class="subtitle">
             <h2>
               Качество продукции контролируется <br>
               на всех циклах производства. <br>
@@ -58,8 +62,7 @@
         </div>
         <img src="images/u-sun-green-rev-2.png" alt="u-sun" class="img-fluid img-sun-rev">
       </section>
-
-      <section id="p-three" class="p-section">
+      <section id="p-three" class="section p-section">
         <div class="slider">
           <div class="list">
             <div class="item item-1">
@@ -77,26 +80,26 @@
                   Заказ по телефону: <a href="tel:+79158601939" class="phone-number">+7 (915) 860-19-39</a> </p>
               </div>
               <div class="item-1__img">
-                    <img src="images/silikat-block.png" alt="" class="img-fluid">
-                  </div>
+                <img src="images/silikat-block.png" alt="" class="img-fluid">
               </div>
-              <div class="item item-2">
-                <div class="p-three_item2-title">
-                  <p><span style="color: #001810; font-weight: 700;" class="title2">#2 <br>Цена по запросу</span><br>
-                    <pre></pre>
-                    - Размеры: (100; 200; 300; 400)×288×600 мм<br>
-                    - Марка по средней плотности: D500<br>
-                    - Клас по прочности на сжатие: B2,5<br>
-                    - Марка по морозостойкости: >F50<br>
-                    - Отпускной вес 1 куб.м: 540 кг<br>
-                    - Теплопроводность в сухом состоянии: <br> 0,1-0,14 Вт/м°C <br>
-                    <pre></pre>
-                    Заказ по телефону: <a href="tel:+79158601939" class="phone-number">+7 (915) 860-19-39</a></p>
-                </div>
-                <div class="item-2__img">
-                  <img src="images/silikat-block.png" alt="" class="img-fluid">
-                </div>
               </div>
+            <div class="item item-2">
+              <div class="p-three_item2-title">
+                <p><span style="color: #001810; font-weight: 700;" class="title2">#2 <br>Цена по запросу</span><br>
+                  <pre></pre>
+                  - Размеры: (100; 200; 300; 400)×288×600 мм<br>
+                  - Марка по средней плотности: D500<br>
+                  - Клас по прочности на сжатие: B2,5<br>
+                  - Марка по морозостойкости: >F50<br>
+                  - Отпускной вес 1 куб.м: 540 кг<br>
+                  - Теплопроводность в сухом состоянии: <br> 0,1-0,14 Вт/м°C<br>
+                  <pre></pre>
+                  Заказ по телефону: <a href="tel:+79158601939" class="phone-number">+7 (915) 860-19-39</a></p>
+              </div>
+              <div class="item-2__img">
+                <img src="images/silikat-block.png" alt="" class="img-fluid">
+              </div>
+            </div>
 
           </div>
           <div class="buttons">
@@ -112,11 +115,25 @@
               <li></li>
             </ul>
       </div>
-    </section>
-    <!-- <section id="p-four" class="p-section">
-    </section> -->
+      </section>
+    </div>
   </div>
+
   <script src="scripts/script.js"></script>
+  <script src="scripts/fullpage.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true
+        });
+
+        //methods
+        $.fn.fullpage.setAllowScrolling(true);
+    });
+  </script>
 </body>
 </html>
