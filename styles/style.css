@@ -13,7 +13,7 @@ h1, h2{
 }
 
 .p-section{
-    height: 100dvh !important;
+    height: 100lvh !important;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -142,13 +142,19 @@ h1, h2{
 .item-1__img,
 .item-2__img{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: end;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
+}
+
+.item-1__img,
+.item-2__img{
+    justify-content: end;
+    margin-right: 15%;
 }
 .item-1__img img,
 .item-2__img img{
-    width: 40%;
+    width: 60%;
 }
 p{
     padding: unset !important;
@@ -185,18 +191,29 @@ p{
     width: 95%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
 .slider .buttons button{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 10%;
     background: #cfc29541;
     border: none;
-    font-family: "Concert One", sans-serif;
+    font-family: "Rowdies", sans-serif;
     font-weight: bold;
     color: #cfc195;
-    font-size: calc(1.2vh + 1.2vh);
+    font-size: 20px;
     -webkit-tap-highlight-color: transparent;
+}
+.buttons img{
+    width: 30px;
+}
+button{
+    padding: 0;
+}
+.slider .buttons{
+    justify-self: center;
 }
 .slider .buttons button:hover{
     cursor: pointer;
@@ -239,20 +256,33 @@ p{
     position: absolute;
     top: 0;
     left: 0;
-    text-align: center;
+    color: #e6e6e6;
+    /* text-align: center; */
+    font-size: calc(.9vh + .9vw);
     font-family: "Montserrat", sans-serif;
     font-weight: 700 !important;
     margin-top: 2%;
-    display: none;
+    margin-left: 3.333%;
+}
+.p-three_item1-title span,
+.p-three_item2-title span{
+    font-size: calc(1.2vh + 1.2vw);
 }
 .p-three_item2-title{
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-left: 6.666%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    text-align: center;
+    color: #e6e6e6;
+    font-size: calc(.9vh + .9vw);
+    /* text-align: center; */
     font-family: "Montserrat", sans-serif;
     font-weight: 700 !important;
-    display: none;
+}
+
+a.phone-number{
+    /* text-decoration: none; */
+    color: #FFF;
 }
