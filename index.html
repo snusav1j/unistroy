@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
   <link rel="icon" href="icons/logo-unistroy-3.png">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/card.css">
   <link rel="stylesheet" href="styles/adaptive.css">
   <link rel="stylesheet" href="styles/animations.css">
   <link rel="stylesheet" href="styles/scrollbar.css">
@@ -43,6 +44,8 @@
         <img src="images/u-sun-green-2.png" alt="u-sun" class="img-fluid img-sun">
       </section>
       <section id="p-two" class="section p-section">
+        <div class="color-bg"></div>
+        <div class="fade"></div>
         <div class="p-two__text">
           <div class="title">
             <h1>КОНТРОЛЬ КАЧЕСТВА</h1>
@@ -62,45 +65,74 @@
         </div>
         <img src="images/u-sun-green-rev-2.png" alt="u-sun" class="img-fluid img-sun-rev">
       </section>
-      <section id="p-three" class="section p-section">
-        
-        <div class="slide">
-          <div class="item item-1">
-            <div class="p-three_item1-title">
-              <p><span style="color: #001810; font-weight: 700;" class="title1">#1 <br>Цена по запросу</span><br>
-                <pre></pre>
-                - ГОСТ 31360-2007 <br>
-                - Плотность: D300, D400, D500 <br>
-                - Класс прочности: В 1,5 — В 3,5 <br>
-                - Размеры: <br>
-                - Длина: 600/625 мм <br>
-                - Высота: 200/250/300 мм <br>
-                - Ширина: 200, 250, 300, 375, 400, 500 мм <br>
-                <pre></pre>
-                Заказ по телефону: <a href="tel:+79158601939" class="phone-number">+7 (915) 860-19-39</a> </p>
-            </div>
-            <div class="item-1__img">
-              <img src="images/silikat-block.png" alt="" class="img-fluid">
-            </div>
-          </div>
+
+      <section id="p-three" class="section p-section"> 
+        <div class="header">
+          <h1>Газосиликатные блоки</h1>
         </div>
-          
-        <div class="slide">
-          <div class="item item-2">
-            <div class="p-three_item2-title">
-              <p><span style="color: #001810; font-weight: 700;" class="title2">#2 <br>Цена по запросу</span><br>
-                <pre></pre>
-                - Размеры: (100; 200; 300; 400)×288×600 мм<br>
-                - Марка по средней плотности: D500<br>
-                - Клас по прочности на сжатие: B2,5<br>
-                - Марка по морозостойкости: >F50<br>
-                - Отпускной вес 1 куб.м: 540 кг<br>
-                - Теплопроводность в сухом состоянии: <br> 0,1-0,14 Вт/м°C<br>
-                <pre></pre>
-                Заказ по телефону: <a href="tel:+79158601939" class="phone-number">+7 (915) 860-19-39</a></p>
+        <div class="mark">
+          <p>UNISTROY</p>
+        </div>
+        <div class="responsive-cards">
+          <div class="cards">
+            <div class="card">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  
+                  <div class="card-header">
+                    <h2>HEBEL</h2>
+                  </div>
+                  <div class="img">
+                    <img src="images/silblok.png" alt="block" class="card-img">
+                  </div>
+                </div>
+                <div class="card__face card__face--back">
+                  <div class="card__content">
+                    
+                    <div class="card__body">
+                      - ГОСТ 31360-2007 <br>
+                      - Плотность: D300, D400, D500 <br>
+                      - Класс прочности: В 1,5 — В 3,5 <br>
+                      <pre></pre>
+                      Размеры: <br>
+                      - Длина: 600/625 мм <br>
+                      - Высота: 200/250/300 мм <br>
+                      - Ширина: 200, 250, 300, 375, 400, 500 мм <br>
+                    </div>
+                    <div class="img">
+                      <img src="images/silblok.png" alt="block" class="card-img">
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="item-2__img">
-              <img src="images/silikat-block.png" alt="" class="img-fluid">
+            <div class="card">
+              <div class="card__inner">
+                <div class="card__face card__face--front"> 
+                  <div class="card-header">
+                    <h2>УНИВЕРСАЛ</h2>
+                  </div>
+                  <div class="img">
+                    <img src="images/silblok.png" alt="block" class="card-img">
+                  </div>
+                </div>
+                <div class="card__face card__face--back">
+                  <div class="card__content">
+                    <div class="img">
+                      <img src="images/silblok.png" alt="block" class="card-img">
+                    </div>
+                    <div class="card__body">
+                      Размеры: (100; 200; 300; 400)×288×600 мм<br>
+                      <pre></pre>
+                      - Марка по средней плотности: D500<br>
+                      - Клас по прочности на сжатие: B2,5<br>
+                      - Марка по морозостойкости: > F50<br>
+                      - Отпускной вес 1 куб.м: 540 кг<br>
+                      - Теплопроводность в сухом состоянии: <br> 0,1-0,14 Вт/м°C<br>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -110,7 +142,7 @@
 
   <script src="scripts/fullpage.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+  <script src="scripts/script.js"></script>
   <script src="scripts/init-fp.js"></script>
 </body>
 </html>
