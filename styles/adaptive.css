@@ -1,24 +1,19 @@
 
 @media screen and (max-width: 1080px){
     .mark{
-        font-size: calc(.9vh + .9vw);
-    }
-}
-@media screen and (max-width: 991px){
-    .mark{
-        font-size: calc(1vh + 1vw);
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 767px){
     .mark{
-        font-size: calc(1.25vh + 1.25vw);
+        font-size: 16px;
         margin-top: 3%;
         margin-right: 3%;
     }
 }
 @media screen and (max-width: 550px){
     .mark{
-        font-size: calc(1.4vh + 1.4vw);
+        font-size: 14px;
         
     }
 }
@@ -220,8 +215,9 @@
         font-size: 25px;
     }
     #p-three .header{
-        margin-top: 7%;
+        margin-top: 20%;
         text-align: center;
+        
     }
 }
 @media screen and (max-width: 400px){
@@ -237,7 +233,14 @@
         padding: 10px;
     }
     #p-three .header{
-        margin-top: 12%;
+        margin-top: 22%;
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #p-three .header{
+        font-size: 25px;
     }
 }
 

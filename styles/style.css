@@ -17,7 +17,7 @@ h1, h2{
     top: 0; right: 0;
     color: rgb(255, 255, 255);
     font-family: Rowdies;
-    font-size: calc(.7vh + .7vw);
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 0%;
     text-align: right;
@@ -250,7 +250,7 @@ a.phone-number{
     font-weight: 700;
     color: #001810;
     font-weight: 500;
-    font-size: calc(1.3vh + 1.3vw);
+    font-size: 34px;
     /* position: absolute;
     top: 0;
     left: 0; */
