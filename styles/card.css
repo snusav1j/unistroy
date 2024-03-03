@@ -54,7 +54,7 @@
 }
 
 .card__face--back {
-    background-color: linear-gradient(to bottom right, #0f3c27, #187c4d);
+    background: #226a48;
     transform: rotateY(180deg);
 }
 
