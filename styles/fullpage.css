@@ -41,10 +41,10 @@ html.fp-enabled,
     transition: all 0.3s ease-out;
 }
 .fp-table{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 100%; */
 }
 .fp-slidesContainer {
     float: left;
@@ -218,8 +218,8 @@ html.fp-enabled,
 .fp-scrollable .fp-section,
 .fp-scrollable .fp-slide{
    /* Fallback for browsers that do not support Custom Properties */
-   height: 100vh;
-   height: calc(var(--vh, 1vh) * 100);
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
 }
 
 .fp-scrollable.fp-responsive .fp-is-overflow.fp-section:not(.fp-auto-height):not([data-percentage]),
@@ -312,4 +312,11 @@ Not supports in Firefox and IE */
 
 .fp-overflow{
     overflow-y: unset !important;
+}
+
+/* /// */
+
+.fp-arrow-left,
+.fp-arrow-right{
+    display: none
 }
