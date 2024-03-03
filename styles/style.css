@@ -96,7 +96,7 @@ h1, h2{
     bottom: 0;
 }
 #p-two{
-    background: url(/images/block-bg.jpg) no-repeat;
+    background: url(../images/block-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
